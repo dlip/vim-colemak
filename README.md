@@ -38,16 +38,15 @@ Key mappings
 
     Colemak layout:                  |                 QWERTY layout:
     `12345 67890-=     Move around:  |  (instead of)   `12345 67890-=
-     qwfpg jluy;[]\         e        |       k          qwert yuiop[]\
-     arstd HNEIo'         h   i      |     h   l        asdfg HJKL;'
-     zxcvb km,./            n        |       j          zxcvb nm,./
+     qwfpg jluy;[]\         u        |       k          qwert yuiop[]\
+     arstd HNEIo'         n   i      |     h   l        asdfg HJKL;'
+     zxcvb km,./            e        |       j          zxcvb nm,./
  
-    (  novx)  h = h (Left)     i = l (Right)     e = k (Up)     n = j (Down)
-    (  novx)  H = 5h (Left*5)  I = 5l (Right*5)  E = 5k (Up*5)  N = 5k (Down*5)
+    (  novx)  n = h (Left)     i = l (Right)     u = k (Up)     e = j (Down)
+    (  novx)  N = 5h (Left*5)  I = 5l (Right*5)  U = 5k (Up*5)  E = 5k (Down*5)
  
     (  novx)  l = b (Back word)            L = B (Back WORD)
     (  novx)  y = w (Forward word)         Y = W (Forward WORD)
-    (  novx)  u = e (Forward end of word)  U = E (Forward end of WORD)
  
     (c     )  <C-L> = <C-Left> (Back WORD)
     (c     )  <C-Y> = <C-Right> (Seems to equal forward WORD minus 1 character)
@@ -76,19 +75,19 @@ Key mappings
     (  n  x)  gK = K (Lookup)
     (  n  x)  gL = L (To line [count] from bottom of window)
  
-    (  n  x)  <C-W>h = <C-W>h (Window left)
-    (  n  x)  <C-W>n = <C-W>j (Window down)
-    (  n  x)  <C-W>e = <C-W>k (Window up)
+    (  n  x)  <C-W>n = <C-W>h (Window left)
+    (  n  x)  <C-W>e = <C-W>j (Window down)
+    (  n  x)  <C-W>u = <C-W>k (Window up)
     (  n  x)  <C-W>i = <C-W>l (Window right)
  
     Lost:
     (  n  x)  H (To line [count] from top of window)
     (  n  x)  s (Substitute [count] characters) [Use wi = cl]
     (  n  x)  S (Substitute [count] lines) [Use ww = cc]
-    (  n  x)  X (Cut [count] characters backwards) [Use dh = dh]
+    (  n  x)  X (Cut [count] characters backwards) [Use dn = dh]
     (  n   )  Z (Quit)
-    (  n  x)  <C-W>n (Window down) [Use <C-W><C-N> = <C-W><C-N>]
-    (  n  x)  <C-W>i (Window down) [Use <C-W><C-I> = <C-W><C-I>]
+    (  n  x)  <C-W>e (Window down) [Use <C-W><C-E> = <C-W><C-N>]
+    (  n  x)  <C-W>i (Window down) [Use <C-W><C-U> = <C-W><C-I>]
  
     Legend:
     <C-X>     Ctrl-X
