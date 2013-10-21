@@ -47,10 +47,11 @@
 " Cut/copy/paste {
     nnoremap x x|xnoremap x d|
     nnoremap c y|xnoremap c y|
-    nnoremap v gP|xnoremap v gP|
+    nnoremap cc yy
+    nnoremap v p|xnoremap v p|
     nnoremap X dd|xnoremap X d|
     nnoremap C yy|xnoremap C y|
-    nnoremap V p|xnoremap V p|
+    nnoremap V P|xnoremap V P|
 " }
 " Undo/redo {
     nnoremap z u|xnoremap z :<C-U>undo<CR>|
@@ -60,6 +61,7 @@
 " Visual mode {
     nnoremap a v|xnoremap a v|
     nnoremap A V|xnoremap A V|
+    nnoremap <C-a> <C-v>|
     " Make insert/add work also in visual line mode like in visual block mode
     xnoremap <silent> <expr> s (mode() =~# "[V]" ? "\<C-V>0o$I" : "I")
     xnoremap <silent> <expr> S (mode() =~# "[V]" ? "\<C-V>0o$I" : "I")
